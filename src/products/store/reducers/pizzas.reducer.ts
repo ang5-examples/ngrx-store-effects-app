@@ -35,7 +35,7 @@ export function reducer(state = initialState, action: fromPizzas.PizzasAction): 
         {
           ...state.entities
         }
-        );
+      );
 
       return {
         ...state,
