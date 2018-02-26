@@ -1,7 +1,9 @@
 import {createSelector} from '@ngrx/store';
+
 import * as fromRoot from '../../../app/store'
 import * as fromFeature from '../reducers';
 import * as fromPizzas from '../reducers/pizzas.reducer';
+
 import {Pizza} from '../../models/pizza.model';
 
 // pizzas state
